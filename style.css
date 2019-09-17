@@ -1,0 +1,166 @@
+
+
+/*#head2{*/
+/*    background-color: skyblue;*/
+/*    color: white;*/
+/*}*/
+
+/*.div-one{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: yellow;*/
+/*    float: left;*/
+/*    margin: 20px;*/
+/*}*/
+
+/*.div-two{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: gray;*/
+/*    float: left;*/
+/*    padding: 80px;*/
+
+/*}*/
+
+/*.div-three{*/
+/*    width: 1000px;*/
+/*    height: 300px;*/
+/*    background-color: crimson;*/
+/*    float: left;*/
+/*}*/
+*{
+    box-sizing: border-box;
+}
+/*.col-xl-1{ width: 8.33%; }
+.col-xl-2{ width: 16.66%; }
+.col-xl-3{ width: 25%; }
+.col-xl-4{ width: 33.33%; }
+.col-xl-5{ width: 41.66%; }
+.col-xl-6{ width: 50%; }
+.col-xl-7{ width: 58.33%; }
+.col-xl-8{ width: 66.66%; }
+.col-xl-9{ width: 75%; }
+.col-xl-10{ width: 83.33%; }
+.col-xl-11{ width: 91.66%; }
+.col-xl-12{ width: 100%; }*/
+
+.cm{
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    padding: 35px 0;
+    font-size: 30px;
+}
+
+.row{
+    content: '';
+    display: block;
+    clear: both;
+    position: relative;
+}
+
+.divider{
+	height: 50px;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.header-height{ height: 100px }
+.menu-height{ height: 50px }
+.content-height{ height: 400px }
+.footer-height{ height: 50px }
+
+
+[class*="col-"]{
+		width: 100%;
+	}
+
+@media (min-width: 0px) and (max-width: 540px){
+	
+	body{background-color: red;}
+}
+
+@media (min-width: 541px) and (max-width: 780px){
+body{background-color: blue;}
+
+.row-height{height: 200px;}
+
+.col-md-1{ width: 8.33%; }
+.col-md-2{ width: 16.66%; }
+.col-md-3{ width: 25%; }
+.col-md-4{ width: 33.33%; }
+.col-md-5{ width: 41.66%; }
+.col-md-6{ width: 50%; }
+.col-md-7{ width: 58.33%; }
+.col-md-8{ width: 66.66%; }
+.col-md-9{ width: 75%; }
+.col-md-10{ width: 83.33%; }
+.col-md-11{ width: 91.66%; }
+.col-md-12{ width: 100%; }	
+
+.one{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.two{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.three{
+	position: absolute;
+	bottom: 0;
+	left: 0; 
+}
+
+.four{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+}
+
+@media (min-width: 781px) and (max-width: 1080px){
+body{background-color: green;}
+
+.row-height{height: 100px;}
+
+.col-lg-1{ width: 8.33%; }
+.col-lg-2{ width: 16.66%; }
+.col-lg-3{ width: 25%; }
+.col-lg-4{ width: 33.33%; }
+.col-lg-5{ width: 41.66%; }
+.col-lg-6{ width: 50%; }
+.col-lg-7{ width: 58.33%; }
+.col-lg-8{ width: 66.66%; }
+.col-lg-9{ width: 75%; }
+.col-lg-10{ width: 83.33%; }
+.col-lg-11{ width: 91.66%; }
+.col-lg-12{ width: 100%; }	
+}
+
+@media (min-width: 1081px){
+body{background-color: orange;}
+
+.row-height{height: 100px;}
+
+.col-xl-1{ width: 8.33%; }
+.col-xl-2{ width: 16.66%; }
+.col-xl-3{ width: 25%; }
+.col-xl-4{ width: 33.33%; }
+.col-xl-5{ width: 41.66%; }
+.col-xl-6{ width: 50%; }
+.col-xl-7{ width: 58.33%; }
+.col-xl-8{ width: 66.66%; }
+.col-xl-9{ width: 75%; }
+.col-xl-10{ width: 83.33%; }
+.col-xl-11{ width: 91.66%; }
+.col-xl-12{ width: 100%; }
+
+}
